@@ -18,4 +18,20 @@ public class UserService {
 		return userDAO.getAllUSers();
 	}
 
+	public User getUser(long userId) {
+		return userDAO.getUser(userId);
+	}
+
+	public void deleteUser(User u) {
+		userDAO.deleteUser(u);
+	}
+
+	public void createUser(User user) {
+		userDAO.createUser(user);
+	}
+
+	public void updateUser(User user) {
+		userDAO.updateUser(user);
+	}
+
 }

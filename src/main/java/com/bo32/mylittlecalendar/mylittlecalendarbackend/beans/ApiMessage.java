@@ -1,8 +1,10 @@
-package com.bo32.mylittlecalendar.mylittlecalendarbackend.spring.controllers;
+package com.bo32.mylittlecalendar.mylittlecalendarbackend.beans;
 
 public class ApiMessage {
 
 	public static final String SUCCESS = "Success";
+	public static final String FAILURE = "Failure";
+	
 	public static final String HOME = "Welcome home";
 	
 	private String status, message;
